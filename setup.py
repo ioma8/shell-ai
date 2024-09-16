@@ -9,9 +9,9 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='shell-ai',
-    version='0.3.26',
-    author='Rick Lamers',
+    name='sacg',
+    version='0.1.0',
+    author='Jakub Kolcar',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
@@ -21,7 +21,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'shai=shell_ai.main:main',
+            'sacg=sacg.main:main',
         ],
     },
 )

@@ -4,7 +4,7 @@ import json
 def load_config():
     # Determine the platform
     platform = os.name  # posix, nt, java, etc.
-    config_app_name = "shell-ai"
+    config_app_name = "sacg"
     try:
         # Determine the path to the configuration file based on the platform
         if platform == 'posix':

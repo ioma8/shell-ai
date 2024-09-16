@@ -14,8 +14,8 @@ from InquirerPy.base.control import Choice
 from langchain_openai.chat_models import AzureChatOpenAI, ChatOpenAI
 from langchain.schema import HumanMessage, SystemMessage
 
-from shell_ai.config import load_config
-from shell_ai.code_parser import code_parser, ContextManager
+from sacg.config import load_config
+from sacg.code_parser import code_parser, ContextManager
 
 class SelectSystemOptions(Enum):
     OPT_GEN_SUGGESTIONS = "Generate new suggestions"

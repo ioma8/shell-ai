@@ -1,4 +1,4 @@
-# Shell-AI: let AI write your shell commands
+# sacg: Simple AI Command Generator
 
 [![PyPI version](https://badge.fury.io/py/shell-ai.svg)](https://pypi.org/project/shell-ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -15,7 +15,7 @@ Shell-AI (`shai`) is a CLI utility that brings the power of natural language und
 You can install Shell-AI directly from PyPI using pip:
 
 ```bash
-pip install shell-ai
+pip install sacg
 ```
 
 Note that on Linux, Python 3.10 or later is required.
